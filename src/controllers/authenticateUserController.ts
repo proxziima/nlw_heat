@@ -1,3 +1,4 @@
+//Preciso importar o request e o response do Express senão a função handle não entende.
 import {Request, Response} from "express";
 import { AuthenticateUSerService } from "../services/authenticateUserService";
 
